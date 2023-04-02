@@ -21,5 +21,4 @@ services:
 
 networks:
   production-network:
-    external:
-      name: production-network
+    driver: bridge
