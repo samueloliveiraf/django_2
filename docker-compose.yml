@@ -20,5 +20,5 @@ services:
        - db_app_2
 
 networks:
-  production-network:
-    driver: bridge
+  prod_net:
+    external: true
