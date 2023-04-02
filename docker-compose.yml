@@ -18,3 +18,8 @@ services:
        - "8001:8001"
      depends_on:
        - db_app_2
+
+networks:
+  production-network:
+    external:
+      name: production-network
